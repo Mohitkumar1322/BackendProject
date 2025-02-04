@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const v1Routes = require('./v1');
-
+const v2Routes = require('./v2');
 //no need to write./v1/index.js as it is the default file that will be imported
 
 router.use('/v1',v1Routes);
